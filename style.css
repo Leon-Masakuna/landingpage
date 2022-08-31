@@ -1,0 +1,505 @@
+html,
+body,
+div {
+    margin: 0;
+}
+
+div#whole-page div#contenu div.header {
+    background-image: url(Desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+div.sunnyside-logo img {
+    padding: 30px;
+    height: 40px;
+    display: inline;
+}
+
+div.sunnyside-logo {
+    display: inline;
+}
+
+div.flex-box div {
+    color: white;
+    font-family: "consolas";
+    font-size: 26px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+div.flex-box {
+    display: flex;
+    text-align: center;
+    height: 25px;
+}
+
+div#flex-container {
+    display: flex;
+    float: right;
+    margin-left: -10px;
+}
+
+
+/* div.flex-box div:hover {
+    cursor: pointer;
+    color: red;
+} */
+
+div.flex-box div.menu-contact:hover {
+    background-color: rgb(153, 216, 224);
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 27px;
+    padding-right: 8px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+div.header div.main-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div.icon-arrow-down {
+    width: 97%;
+    align-content: center;
+}
+
+div.icon-arrow-down img {
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 50px;
+}
+
+div.body-center-grid div {
+    height: 500px;
+    border: none;
+}
+
+div.body-center-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+div#icon {
+    display: none;
+}
+
+div.body-center-grid div.grid-items-second-child {
+    background-image: url(Desktop/image-transform.jpg);
+}
+
+div.body-center-grid div.grid-items-third-child {
+    background-image: url(Desktop/image-stand-out.jpg);
+}
+
+div.body-center-grid div.grid-items-fifth-child {
+    background-image: url(Desktop/image-graphic-design.jpg);
+}
+
+div.body-center-grid div.grid-items-sixth-child {
+    background-image: url(image-photography.jpg);
+}
+
+div.body-center-grid div.grid-items-first-child h1 {
+    padding-top: 120px;
+}
+
+div.body-center-grid div.grid-items-first-child h1,
+p,
+h3 {
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+div.body-center-grid div.grid-items-fourth-child h1 {
+    padding-top: 120px;
+}
+
+div.body-center-grid div.grid-items-fourth-child h1,
+p,
+h3 {
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+div.body-center-grid div.grid-items-fifth-child h1 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+div.body-center-grid div.grid-items-fifth-child p,
+div.grid-items-sixth-child p {
+    text-align: center;
+}
+
+div.body-center-grid div.grid-items-sixth-child h1 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+
+/*div.body-center-grid div.grid-items-sixth-child p {
+    text-align: center;
+}*/
+
+div.client-testimonials div.testimonial-title {
+    text-align: center;
+    padding-top: 150px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.image-container div.round-image img {
+    display: inline;
+    width: 70px;
+    border-radius: 50%;
+    padding: 150px;
+}
+
+div.image-container .img-1 {
+    margin-left: -30px;
+}
+
+div.image-container .img-2 {
+    margin-left: -5px;
+}
+
+div.image-container .img-3 {
+    margin-left: -5px;
+}
+
+div.image-container {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+div.image-container div.round-image {
+    padding-bottom: 10px;
+}
+
+div.paragraph-container p.image-container-paragraph {
+    padding-left: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+div.paragraph-container,
+div.client-names,
+div.client-post {
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    width: 1300px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.client-names p,
+div.client-post p {
+    padding-left: 40px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.client-post p {
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+div.last-image-flex-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 400px;
+}
+
+div.last-image-flex-container div.flex-items-1 {
+    background-image: url(Desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-2 {
+    background-image: url(Desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-4 {
+    background-image: url(Desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-3 {
+    background-image: url(Desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.footer-container {
+    height: 250px;
+    background-color: aquamarine;
+    padding: 60px;
+    color: gray;
+}
+
+div.footer-container div.footer-container-title img {
+    height: 40px;
+    padding-left: 42%;
+}
+
+div.footer-container-flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 30px;
+}
+
+div.footer-container-flex1-item-1:hover {
+    color: white;
+}
+
+div.footer-container-flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 80px;
+}
+
+div.img img:hover {
+    color: white;
+}
+
+div.footer-container-flex1,
+div.footer-container-flex2:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 475px) {
+    div.flex-box div#icon {
+        display: block;
+    }
+    div.flex-box div.menu {
+        display: none;
+    }
+    div#whole-page div#contenu div.header {
+        background-image: url(images/mobile/image-header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    div#contenu div.header div.main-title {
+        font-family: consolas;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    div.icon-arrow-down img {
+        padding-top: 125px;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    div.body-center-grid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column wrap;
+    }
+    /* div.grid-items-second-child,
+    div.grid-items-first-child,
+    div.grid-items-third-child,
+    div.grid-items-fourth-child,
+    div.grid-items-fifth-child,
+    div.grid-items-sixth-child {
+        display: block;
+    } */
+    /* div.body-center-grid div.div-item-1 {
+        background-image: url(images/mobile/image-transform.jpg);
+    } */
+    div.grid-items-first-child {
+        order: 1;
+    }
+    div.body-center-grid div.grid-items-second-child {
+        background-image: url(Desktop/image-transform.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.body-center-grid div.grid-items-third-child {
+        background-image: url(Desktop/image-stand-out.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        order: 1;
+    }
+    div.grid-items-fourth-child {
+        order: 1;
+    }
+    div.body-center-grid div.grid-items-fifth-child {
+        background-image: url(Desktop/image-graphic-design.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        order: 1;
+    }
+    div.body-center-grid div.grid-items-sixth-child {
+        background-image: url(image-photography.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        order: 1;
+    }
+    div.body-center-grid div.grid-items-first-child h1,
+    div.body-center-grid div.grid-items-fourth-child h1 {
+        padding-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    div.body-center-grid div.grid-items-first-child h1,
+    div.body-center-grid div.grid-items-first-child p,
+    div.body-center-grid div.grid-items-first-child h3,
+    div.body-center-grid div.grid-items-fourth-child h1,
+    div.body-center-grid div.grid-items-fourth-child p,
+    div.body-center-grid div.grid-items-fourth-child h3 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    div.body-center-grid div.grid-items-first-child p,
+    div.body-center-grid div.grid-items-fourth-child p {
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    div.body-center-grid div.grid-items-first-child h3,
+    div.body-center-grid div.grid-items-fourth-child h3 {
+        text-align: center;
+    }
+    div.body-center-grid div.grid-items-fourth-child h1 {
+        padding-top: 0px;
+    }
+    div.body-center-grid div.grid-items-fifth-child h1 {
+        padding-top: 0px;
+        text-align: center;
+    }
+    div.body-center-grid div.grid-items-fifth-child p,
+    div.grid-items-sixth-child p {
+        text-align: center;
+    }
+    div.body-center-grid div.grid-items-fifth-child p,
+    div.body-center-grid div.grid-items-sixth-child p {
+        padding: 0px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    div.body-center-grid div.grid-items-fifth-child h1,
+    div.body-center-grid div.grid-items-sixth-child h1 {
+        padding-top: 65%;
+        text-align: center;
+    }
+    div.body-center-grid div.grid-items-first-child {
+        height: 400px;
+    }
+    div.body-center-grid div.grid-items-fourth-child {
+        height: 350px;
+    }
+    /* Clients testimonials */
+    div.client-testimonials div.testimonial-title {
+        text-align: center;
+        padding-top: 150px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    div.image-container div.round-image img {
+        display: inline;
+        width: 70px;
+        border-radius: 50%;
+        padding: 150px;
+    }
+    div.image-container {
+        display: flex;
+        justify-content: center;
+        height: 250px;
+    }
+    div.image-container div.round-image {
+        padding-bottom: 10px;
+    }
+    div.paragraph-container p.image-container-paragraph {
+        padding-left: 40px;
+        width: 300px;
+        text-align: center;
+    }
+    div.paragraph-container,
+    div.client-names,
+    div.client-post {
+        display: grid;
+        grid-template-columns: repeat(3, 28%);
+        width: 1300px;
+        align-items: center;
+        justify-content: center;
+    }
+    div.client-names p,
+    div.client-post p {
+        padding-left: 40px;
+        width: 300px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    div.client-post p {
+        font-size: 12px;
+        padding-bottom: 100px;
+    }
+    div.last-image-flex-container {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        height: 400px;
+    }
+    div.last-image-flex-container div.flex-items-1 {
+        background-image: url(Desktop/image-gallery-milkbottles.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    div.last-image-flex-container div.flex-items-2 {
+        background-image: url(Desktop/image-gallery-orange.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    div.last-image-flex-container div.flex-items-4 {
+        background-image: url(Desktop/image-gallery-sugarcubes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    div.last-image-flex-container div.flex-items-3 {
+        background-image: url(Desktop/image-gallery-cone.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
