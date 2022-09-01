@@ -286,6 +286,7 @@ div.footer-container-flex2 {
 }
 
 div.img img:hover {
+    background-color: white;
     color: white;
 }
 
@@ -456,8 +457,8 @@ div.footer-container-flex2:hover {
     div.client-names,
     div.client-post {
         display: grid;
-        grid-template-columns: repeat(3, 28%);
-        width: 1300px;
+        grid-template-columns: repeat(1, 50%);
+        width: 50px;
         align-items: center;
         justify-content: center;
     }
